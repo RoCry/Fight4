@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58520890152175DD00D09F0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852088E152175D400D09F0F /* QuartzCore.framework */; };
+		585208A41521B02400D09F0F /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 585208A21521B02400D09F0F /* libMobClickLibrary.a */; };
+		585208A71521B05700D09F0F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585208A61521B05700D09F0F /* SystemConfiguration.framework */; };
+		585208A91521B06F00D09F0F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585208A81521B06F00D09F0F /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		585208AB1521B08300D09F0F /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 585208AA1521B08200D09F0F /* libz.1.dylib */; };
+		589532FE1520BBBD00F6C62A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 589532FC1520BBBD00F6C62A /* Icon@2x.png */; };
+		589533001520BBFD00F6C62A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 589532FF1520BBFD00F6C62A /* Icon.png */; };
+		58E51DBD152095640083C8E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E51DBC152095640083C8E2 /* UIKit.framework */; };
+		58E51DBF152095640083C8E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E51DBE152095640083C8E2 /* Foundation.framework */; };
+		58E51DC1152095640083C8E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E51DC0152095640083C8E2 /* CoreGraphics.framework */; };
+		58E51DC7152095640083C8E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58E51DC5152095640083C8E2 /* InfoPlist.strings */; };
+		58E51DC9152095640083C8E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E51DC8152095640083C8E2 /* main.m */; };
+		58E51DCD152095640083C8E2 /* NirvanaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E51DCC152095640083C8E2 /* NirvanaAppDelegate.m */; };
+		58E51DD0152095640083C8E2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E51DCE152095640083C8E2 /* MainStoryboard.storyboard */; };
+		58E51DD3152095640083C8E2 /* NirvanaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E51DD2152095640083C8E2 /* NirvanaViewController.m */; };
+		58E51DDB152095EA0083C8E2 /* NirvanaNoticationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E51DDA152095EA0083C8E2 /* NirvanaNoticationUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5852088E152175D400D09F0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		585208A21521B02400D09F0F /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		585208A31521B02400D09F0F /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		585208A61521B05700D09F0F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		585208A81521B06F00D09F0F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		585208AA1521B08200D09F0F /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
+		589532FC1520BBBD00F6C62A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		589532FF1520BBFD00F6C62A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		58E51DB8152095640083C8E2 /* Fight4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fight4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E51DBC152095640083C8E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58E51DBE152095640083C8E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58E51DC0152095640083C8E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58E51DC4152095640083C8E2 /* Fight4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fight4-Info.plist"; sourceTree = "<group>"; };
+		58E51DC6152095640083C8E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58E51DC8152095640083C8E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58E51DCA152095640083C8E2 /* Fight4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fight4-Prefix.pch"; sourceTree = "<group>"; };
+		58E51DCB152095640083C8E2 /* NirvanaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NirvanaAppDelegate.h; sourceTree = "<group>"; };
+		58E51DCC152095640083C8E2 /* NirvanaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NirvanaAppDelegate.m; sourceTree = "<group>"; };
+		58E51DCF152095640083C8E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		58E51DD1152095640083C8E2 /* NirvanaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NirvanaViewController.h; sourceTree = "<group>"; };
+		58E51DD2152095640083C8E2 /* NirvanaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NirvanaViewController.m; sourceTree = "<group>"; };
+		58E51DD9152095EA0083C8E2 /* NirvanaNoticationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NirvanaNoticationUtils.h; sourceTree = "<group>"; };
+		58E51DDA152095EA0083C8E2 /* NirvanaNoticationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NirvanaNoticationUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58E51DB5152095640083C8E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585208AB1521B08300D09F0F /* libz.1.dylib in Frameworks */,
+				585208A91521B06F00D09F0F /* CoreTelephony.framework in Frameworks */,
+				585208A71521B05700D09F0F /* SystemConfiguration.framework in Frameworks */,
+				58520890152175DD00D09F0F /* QuartzCore.framework in Frameworks */,
+				58E51DBD152095640083C8E2 /* UIKit.framework in Frameworks */,
+				58E51DBF152095640083C8E2 /* Foundation.framework in Frameworks */,
+				58E51DC1152095640083C8E2 /* CoreGraphics.framework in Frameworks */,
+				585208A41521B02400D09F0F /* libMobClickLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585208A51521B02B00D09F0F /* umeng */ = {
+			isa = PBXGroup;
+			children = (
+				585208A21521B02400D09F0F /* libMobClickLibrary.a */,
+				585208A31521B02400D09F0F /* MobClick.h */,
+			);
+			name = umeng;
+			sourceTree = "<group>";
+		};
+		587122711520ADF60024C2DD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				589532FC1520BBBD00F6C62A /* Icon@2x.png */,
+				589532FF1520BBFD00F6C62A /* Icon.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		589533011520BC2200F6C62A /* OtherClass */ = {
+			isa = PBXGroup;
+			children = (
+				585208A51521B02B00D09F0F /* umeng */,
+			);
+			name = OtherClass;
+			sourceTree = "<group>";
+		};
+		58E51DAD152095640083C8E2 = {
+			isa = PBXGroup;
+			children = (
+				585208AA1521B08200D09F0F /* libz.1.dylib */,
+				585208A81521B06F00D09F0F /* CoreTelephony.framework */,
+				585208A61521B05700D09F0F /* SystemConfiguration.framework */,
+				589533011520BC2200F6C62A /* OtherClass */,
+				587122711520ADF60024C2DD /* Resource */,
+				58E51DC2152095640083C8E2 /* fight4 */,
+				58E51DBB152095640083C8E2 /* Frameworks */,
+				58E51DB9152095640083C8E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58E51DB9152095640083C8E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58E51DB8152095640083C8E2 /* Fight4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58E51DBB152095640083C8E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5852088E152175D400D09F0F /* QuartzCore.framework */,
+				58E51DBC152095640083C8E2 /* UIKit.framework */,
+				58E51DBE152095640083C8E2 /* Foundation.framework */,
+				58E51DC0152095640083C8E2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58E51DC2152095640083C8E2 /* fight4 */ = {
+			isa = PBXGroup;
+			children = (
+				58E51DCB152095640083C8E2 /* NirvanaAppDelegate.h */,
+				58E51DCC152095640083C8E2 /* NirvanaAppDelegate.m */,
+				58E51DCE152095640083C8E2 /* MainStoryboard.storyboard */,
+				58E51DD1152095640083C8E2 /* NirvanaViewController.h */,
+				58E51DD2152095640083C8E2 /* NirvanaViewController.m */,
+				58E51DD9152095EA0083C8E2 /* NirvanaNoticationUtils.h */,
+				58E51DDA152095EA0083C8E2 /* NirvanaNoticationUtils.m */,
+				58E51DC3152095640083C8E2 /* Supporting Files */,
+			);
+			path = fight4;
+			sourceTree = "<group>";
+		};
+		58E51DC3152095640083C8E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58E51DC4152095640083C8E2 /* Fight4-Info.plist */,
+				58E51DC5152095640083C8E2 /* InfoPlist.strings */,
+				58E51DC8152095640083C8E2 /* main.m */,
+				58E51DCA152095640083C8E2 /* Fight4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58E51DB7152095640083C8E2 /* Fight4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58E51DD6152095640083C8E2 /* Build configuration list for PBXNativeTarget "Fight4" */;
+			buildPhases = (
+				58E51DB4152095640083C8E2 /* Sources */,
+				58E51DB5152095640083C8E2 /* Frameworks */,
+				58E51DB6152095640083C8E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fight4;
+			productName = fight4;
+			productReference = 58E51DB8152095640083C8E2 /* Fight4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58E51DAF152095640083C8E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Nirvana;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = 7782;
+			};
+			buildConfigurationList = 58E51DB2152095640083C8E2 /* Build configuration list for PBXProject "Fight4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58E51DAD152095640083C8E2;
+			productRefGroup = 58E51DB9152095640083C8E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58E51DB7152095640083C8E2 /* Fight4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58E51DB6152095640083C8E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E51DC7152095640083C8E2 /* InfoPlist.strings in Resources */,
+				58E51DD0152095640083C8E2 /* MainStoryboard.storyboard in Resources */,
+				589532FE1520BBBD00F6C62A /* Icon@2x.png in Resources */,
+				589533001520BBFD00F6C62A /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E51DB4152095640083C8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E51DC9152095640083C8E2 /* main.m in Sources */,
+				58E51DCD152095640083C8E2 /* NirvanaAppDelegate.m in Sources */,
+				58E51DD3152095640083C8E2 /* NirvanaViewController.m in Sources */,
+				58E51DDB152095EA0083C8E2 /* NirvanaNoticationUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58E51DC5152095640083C8E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E51DC6152095640083C8E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58E51DCE152095640083C8E2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58E51DCF152095640083C8E2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58E51DD4152095640083C8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58E51DD5152095640083C8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58E51DD7152095640083C8E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fight4/Fight4-Prefix.pch";
+				INFOPLIST_FILE = "fight4/Fight4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Fight4;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58E51DD8152095640083C8E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fight4/Fight4-Prefix.pch";
+				INFOPLIST_FILE = "fight4/Fight4-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Fight4;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58E51DB2152095640083C8E2 /* Build configuration list for PBXProject "Fight4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E51DD4152095640083C8E2 /* Debug */,
+				58E51DD5152095640083C8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58E51DD6152095640083C8E2 /* Build configuration list for PBXNativeTarget "Fight4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58E51DD7152095640083C8E2 /* Debug */,
+				58E51DD8152095640083C8E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58E51DAF152095640083C8E2 /* Project object */;
+}
