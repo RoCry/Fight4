@@ -36,12 +36,20 @@
     [[UIApplication sharedApplication] cancelAllLocalNotifications];
     UILocalNotification *localNotif = [[UILocalNotification alloc] init];
     
-    int deltaDay = [[NSDate date] timeIntervalSinceDate:theDefaultDate] / 86400;
-       
+    NSInteger offset = [[NSDate date] timeIntervalSinceDate:theDefaultDate];
+    int deltaDay = offset / 86400;
+
     for (int i = deltaDay; i < deltaDay + 60; i++) {
-        localNotif.fireDate = [theDefaultDate dateByAddingTimeInterval:i*86400];
+        if (offset < 0 && i <= 0) {
+            localNotif.fireDate = [theDefaultDate dateByAddingTimeInterval:(i-1)*86400];
+        }else {
+            localNotif.fireDate = [theDefaultDate dateByAddingTimeInterval:i*86400];
+        }
         localNotif.timeZone = [NSTimeZone defaultTimeZone];
-        [localNotif setApplicationIconBadgeNumber:i];
+    
+        [localNotif setApplicationIconBadgeNumber:ABS(i)];
+      
+            
         [[UIApplication sharedApplication] scheduleLocalNotification:localNotif];
     }
     

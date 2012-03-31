@@ -10,7 +10,7 @@
 #import "NirvanaNoticationUtils.h"
 #import <QuartzCore/QuartzCore.h>
 
-@interface NirvanaViewController : UIViewController
+@interface NirvanaViewController : UIViewController<UIActionSheetDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *defaultTimeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *testLabel;
 @property (strong, nonatomic) CATransition *defaultAnimation;
@@ -36,6 +36,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *fightLabel;
 @property (weak, nonatomic) IBOutlet UILabel *colonLabel;
 @property (weak, nonatomic) IBOutlet UILabel *colonLabel2;
+
+@property (strong, nonatomic) UIDatePicker *datePicker;
 
 - (IBAction)tap:(UITapGestureRecognizer *)sender;
 

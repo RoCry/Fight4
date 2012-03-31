@@ -39,6 +39,8 @@
 @synthesize colonLabel2;
 @synthesize fightView;
 
+@synthesize datePicker = _datePicker;
+
 - (CATransition *)defaultAnimation{
     if (!_defaultAnimation) {
         _defaultAnimation  = [CATransition animation];
@@ -61,10 +63,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [NirvanaNoticationUtils scheduleNotification];
-    animationOn = YES;
-    stop = [[[NSUserDefaults standardUserDefaults]objectForKey:@"kStopRefresh"]boolValue];
-    [self toggleRefresh:stop];
+    
+    // if is the first time launch, pick the date and schedule, if not, schedule
+    if (!self.defaultDate) {
+        self.datePicker = [[UIDatePicker alloc] init];
+        self.datePicker.datePickerMode = UIDatePickerModeDate;
+        NSString *title = UIDeviceOrientationIsLandscape([UIDevice currentDevice]. orientation) ? @"\n\n\n\n\n\n\n\n" : @"\n\n\n\n\n\n\n\n\n\n\n" ;
+        UIActionSheet *actionSheet = nil;
+        actionSheet.delegate = self;
+        actionSheet = [[UIActionSheet alloc] initWithTitle:title delegate:self cancelButtonTitle:nil destructiveButtonTitle:@"Confirm" otherButtonTitles:nil];
+        [actionSheet showInView:self.view];
+        [actionSheet addSubview:self.datePicker];
+    }else {
+        [NirvanaNoticationUtils scheduleNotification];
+        animationOn = YES;
+        stop = [[[NSUserDefaults standardUserDefaults]objectForKey:@"kStopRefresh"]boolValue];
+        [self toggleRefresh:stop];
+    }
 }
 
 - (void)viewDidUnload
@@ -93,8 +108,17 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
+    if (buttonIndex == [actionSheet destructiveButtonIndex]) {
+        self.defaultDate = self.datePicker.date;
+        [[NSUserDefaults standardUserDefaults]setValue:self.datePicker.date forKey:@"DefaultDate"];
+        [NirvanaNoticationUtils scheduleNotification];
+        [self updateTimeLabel];
+    }
+}
+
 - (void)updateTimeLabel{
-    NSInteger offset = [[NSDate date] timeIntervalSinceDate:self.defaultDate];
+    NSInteger offset = abs([[NSDate date] timeIntervalSinceDate:self.defaultDate]);
     
     int day2,day1,day0,hour1,hour0,min1,min0,sec1,sec0;
     int day,hour,min,sec;
