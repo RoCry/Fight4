@@ -34,8 +34,6 @@
 @property (weak, nonatomic) IBOutlet UIView *fightView;
 @property (weak, nonatomic) IBOutlet UIView *timeView;
 @property (weak, nonatomic) IBOutlet UILabel *fightLabel;
-@property (weak, nonatomic) IBOutlet UILabel *colonLabel;
-@property (weak, nonatomic) IBOutlet UILabel *colonLabel2;
 
 @property(strong) IBOutletCollection(UILabel) NSArray *numberLabels;
 

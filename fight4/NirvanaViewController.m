@@ -30,8 +30,6 @@
 
 @synthesize timeView;
 @synthesize fightLabel;
-@synthesize colonLabel;
-@synthesize colonLabel2;
 @synthesize fightView;
 
 @synthesize datePicker = _datePicker;
@@ -93,8 +91,6 @@
     [self setTimeView:nil];
     [self setFightView:nil];
     [self setFightLabel:nil];
-    [self setColonLabel:nil];
-    [self setColonLabel2:nil];
     [super viewDidUnload];
 }
 

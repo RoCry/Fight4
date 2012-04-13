@@ -148,8 +148,6 @@
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="colonLabel" destination="8Ki-Ij-TAE" id="gau-x5-VBn"/>
-                        <outlet property="colonLabel2" destination="wJF-Sy-xHM" id="NGP-Un-X7X"/>
                         <outlet property="d0" destination="617-t9-9Bj" id="1fR-IO-gTw"/>
                         <outlet property="d1" destination="eoX-qs-jBg" id="q1H-ZH-ibh"/>
                         <outlet property="d2" destination="PEp-hV-VEr" id="zCC-Wz-Jpq"/>
@@ -191,8 +189,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NirvanaViewController.h"/>
             <relationships>
                 <relationship kind="action" name="tap:" candidateClass="UITapGestureRecognizer"/>
-                <relationship kind="outlet" name="colonLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="colonLabel2" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="d0" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="d1" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="d2" candidateClass="UILabel"/>
@@ -207,7 +203,6 @@
                 <relationship kind="outlet" name="s1" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="testLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="timeView" candidateClass="UIView"/>
-                <relationship kind="outletCollection" name="labels1" candidateClass="UILabel"/>
                 <relationship kind="outletCollection" name="numberLabels" candidateClass="UILabel"/>
             </relationships>
         </class>
