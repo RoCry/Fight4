@@ -24,15 +24,10 @@
 @synthesize testLabel;
 @synthesize defaultAnimation = _defaultAnimation;
 @synthesize defaultDate = _defaultDate;
-@synthesize s1;
-@synthesize s0;
-@synthesize m0;
-@synthesize m1;
-@synthesize h0;
-@synthesize h1;
-@synthesize d0;
-@synthesize d1;
-@synthesize d2;
+@synthesize s1,s0,m0,m1,h0,h1,d0,d1,d2;
+
+@synthesize numberLabels;
+
 @synthesize timeView;
 @synthesize fightLabel;
 @synthesize colonLabel;
@@ -229,17 +224,10 @@
     [self.timeView setBackgroundColor:color2];
     
     [self.fightLabel setTextColor:color2];
-    [self.d0 setTextColor:color1];
-    [self.d1 setTextColor:color1];
-    [self.d2 setTextColor:color1];
-    [self.h0 setTextColor:color1];
-    [self.h1 setTextColor:color1];
-    [self.m0 setTextColor:color1];
-    [self.m1 setTextColor:color1];
-    [self.s0 setTextColor:color1];
-    [self.s1 setTextColor:color1]; 
-    [self.colonLabel setTextColor:color1];
-    [self.colonLabel2 setTextColor:color1];
+    for (UILabel *label in self.numberLabels) {
+        [label setTextColor:color1];
+    }
+
     [[self.view layer] addAnimation:animation forKey:@"animation"];
     
     [[NSUserDefaults standardUserDefaults]setValue:[NSNumber numberWithBool:stop] forKey:@"kStopRefresh"];

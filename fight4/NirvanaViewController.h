@@ -37,6 +37,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *colonLabel;
 @property (weak, nonatomic) IBOutlet UILabel *colonLabel2;
 
+@property(strong) IBOutletCollection(UILabel) NSArray *numberLabels;
+
 @property (strong, nonatomic) UIDatePicker *datePicker;
 
 - (IBAction)tap:(UITapGestureRecognizer *)sender;

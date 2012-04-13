@@ -163,6 +163,17 @@
                         <outlet property="s1" destination="sMc-N1-Pqn" id="mZp-l8-DLQ"/>
                         <outlet property="testLabel" destination="lYA-RA-ydR" id="t43-Wf-C64"/>
                         <outlet property="timeView" destination="eQj-Rf-Im9" id="3bo-SH-vZ5"/>
+                        <outletCollection property="numberLabels" destination="PEp-hV-VEr" id="tQF-z1-d5a"/>
+                        <outletCollection property="numberLabels" destination="eoX-qs-jBg" id="Vud-AA-hOb"/>
+                        <outletCollection property="numberLabels" destination="617-t9-9Bj" id="fsg-CD-uAp"/>
+                        <outletCollection property="numberLabels" destination="tle-tO-3fu" id="VSc-rp-BGz"/>
+                        <outletCollection property="numberLabels" destination="QtD-gi-WgP" id="QcQ-Rc-Hls"/>
+                        <outletCollection property="numberLabels" destination="8Ki-Ij-TAE" id="gU2-z0-uWY"/>
+                        <outletCollection property="numberLabels" destination="K9q-7x-G03" id="pSi-yc-49p"/>
+                        <outletCollection property="numberLabels" destination="qfI-KU-yFo" id="y0T-Ac-JbT"/>
+                        <outletCollection property="numberLabels" destination="wJF-Sy-xHM" id="o1I-Jd-y19"/>
+                        <outletCollection property="numberLabels" destination="sMc-N1-Pqn" id="AVq-JJ-BBK"/>
+                        <outletCollection property="numberLabels" destination="22a-Ec-psC" id="mbT-zD-Ysh"/>
                     </connections>
                 </viewController>
                 <tapGestureRecognizer id="X90-j6-gAr">
@@ -172,7 +183,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="7" y="51"/>
+            <point key="canvasLocation" x="-308" y="44"/>
         </scene>
     </scenes>
     <classes>
@@ -196,6 +207,8 @@
                 <relationship kind="outlet" name="s1" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="testLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="timeView" candidateClass="UIView"/>
+                <relationship kind="outletCollection" name="labels1" candidateClass="UILabel"/>
+                <relationship kind="outletCollection" name="numberLabels" candidateClass="UILabel"/>
             </relationships>
         </class>
     </classes>
