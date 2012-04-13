@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MobClick.h"
 
-@interface NirvanaAppDelegate : UIResponder <UIApplicationDelegate,MobClickDelegate>
+@interface NirvanaAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

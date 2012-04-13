@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		58520890152175DD00D09F0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852088E152175D400D09F0F /* QuartzCore.framework */; };
-		585208A41521B02400D09F0F /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 585208A21521B02400D09F0F /* libMobClickLibrary.a */; };
-		585208A71521B05700D09F0F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585208A61521B05700D09F0F /* SystemConfiguration.framework */; };
-		585208A91521B06F00D09F0F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585208A81521B06F00D09F0F /* CoreTelephony.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		585208AB1521B08300D09F0F /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 585208AA1521B08200D09F0F /* libz.1.dylib */; };
 		589532FE1520BBBD00F6C62A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 589532FC1520BBBD00F6C62A /* Icon@2x.png */; };
 		589533001520BBFD00F6C62A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 589532FF1520BBFD00F6C62A /* Icon.png */; };
 		58E51DBD152095640083C8E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E51DBC152095640083C8E2 /* UIKit.framework */; };
@@ -27,11 +23,6 @@
 
 /* Begin PBXFileReference section */
 		5852088E152175D400D09F0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		585208A21521B02400D09F0F /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
-		585208A31521B02400D09F0F /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
-		585208A61521B05700D09F0F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		585208A81521B06F00D09F0F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		585208AA1521B08200D09F0F /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
 		589532FC1520BBBD00F6C62A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		589532FF1520BBFD00F6C62A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		58E51DB8152095640083C8E2 /* Fight4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fight4.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,29 +47,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585208AB1521B08300D09F0F /* libz.1.dylib in Frameworks */,
-				585208A91521B06F00D09F0F /* CoreTelephony.framework in Frameworks */,
-				585208A71521B05700D09F0F /* SystemConfiguration.framework in Frameworks */,
 				58520890152175DD00D09F0F /* QuartzCore.framework in Frameworks */,
 				58E51DBD152095640083C8E2 /* UIKit.framework in Frameworks */,
 				58E51DBF152095640083C8E2 /* Foundation.framework in Frameworks */,
 				58E51DC1152095640083C8E2 /* CoreGraphics.framework in Frameworks */,
-				585208A41521B02400D09F0F /* libMobClickLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		585208A51521B02B00D09F0F /* umeng */ = {
-			isa = PBXGroup;
-			children = (
-				585208A21521B02400D09F0F /* libMobClickLibrary.a */,
-				585208A31521B02400D09F0F /* MobClick.h */,
-			);
-			name = umeng;
-			sourceTree = "<group>";
-		};
 		587122711520ADF60024C2DD /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +69,6 @@
 		589533011520BC2200F6C62A /* OtherClass */ = {
 			isa = PBXGroup;
 			children = (
-				585208A51521B02B00D09F0F /* umeng */,
 			);
 			name = OtherClass;
 			sourceTree = "<group>";
@@ -99,9 +76,6 @@
 		58E51DAD152095640083C8E2 = {
 			isa = PBXGroup;
 			children = (
-				585208AA1521B08200D09F0F /* libz.1.dylib */,
-				585208A81521B06F00D09F0F /* CoreTelephony.framework */,
-				585208A61521B05700D09F0F /* SystemConfiguration.framework */,
 				589533011520BC2200F6C62A /* OtherClass */,
 				587122711520ADF60024C2DD /* Resource */,
 				58E51DC2152095640083C8E2 /* fight4 */,

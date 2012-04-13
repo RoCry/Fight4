@@ -12,12 +12,7 @@
 
 @synthesize window = _window;
 
--(NSString *)appKey{ 
-    return @"4f7177e45270153890000064"; 
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
-    [MobClick setDelegate:self reportPolicy:BATCH];
     application.applicationIconBadgeNumber = 0;
     return YES;
 }
