@@ -1,6 +1,6 @@
 #This is the simplest app in the world... 
 
-**it could and only could record how many days you fighted for something and the amount of days will display in the right-top corner of the icon. **
+it could and only could record how many days you fighted for something and the amount of days will display in the right-top corner of the icon. 
 
 ###here is the reason why i wrote this stupid app:   
 life is always a struggle and we'll fight for something beatiful, forever   
