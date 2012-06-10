@@ -15,8 +15,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "58E51DB7152095640083C8E2"
                BuildableName = "Fight4.app"
-               BlueprintName = "Fight4"
-               ReferencedContainer = "container:Fight4.xcodeproj">
+               BlueprintName = "Yoe"
+               ReferencedContainer = "container:Yoe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,8 +33,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58E51DB7152095640083C8E2"
             BuildableName = "Fight4.app"
-            BlueprintName = "Fight4"
-            ReferencedContainer = "container:Fight4.xcodeproj">
+            BlueprintName = "Yoe"
+            ReferencedContainer = "container:Yoe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,8 +52,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58E51DB7152095640083C8E2"
             BuildableName = "Fight4.app"
-            BlueprintName = "Fight4"
-            ReferencedContainer = "container:Fight4.xcodeproj">
+            BlueprintName = "Yoe"
+            ReferencedContainer = "container:Yoe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,8 +70,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58E51DB7152095640083C8E2"
             BuildableName = "Fight4.app"
-            BlueprintName = "Fight4"
-            ReferencedContainer = "container:Fight4.xcodeproj">
+            BlueprintName = "Yoe"
+            ReferencedContainer = "container:Yoe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

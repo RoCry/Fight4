@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		58520890152175DD00D09F0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5852088E152175D400D09F0F /* QuartzCore.framework */; };
-		589532FE1520BBBD00F6C62A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 589532FC1520BBBD00F6C62A /* Icon@2x.png */; };
-		589533001520BBFD00F6C62A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 589532FF1520BBFD00F6C62A /* Icon.png */; };
+		58B34AD51584E7E200ED4DB0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B34AD31584E7E200ED4DB0 /* Icon@2x.png */; };
+		58B34AD61584E7E200ED4DB0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B34AD41584E7E200ED4DB0 /* Icon.png */; };
 		58E51DBD152095640083C8E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E51DBC152095640083C8E2 /* UIKit.framework */; };
 		58E51DBF152095640083C8E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E51DBE152095640083C8E2 /* Foundation.framework */; };
 		58E51DC1152095640083C8E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E51DC0152095640083C8E2 /* CoreGraphics.framework */; };
@@ -23,16 +23,16 @@
 
 /* Begin PBXFileReference section */
 		5852088E152175D400D09F0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		589532FC1520BBBD00F6C62A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		589532FF1520BBFD00F6C62A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		58E51DB8152095640083C8E2 /* Fight4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fight4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B34AD31584E7E200ED4DB0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		58B34AD41584E7E200ED4DB0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		58E51DB8152095640083C8E2 /* Yoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E51DBC152095640083C8E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		58E51DBE152095640083C8E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		58E51DC0152095640083C8E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		58E51DC4152095640083C8E2 /* Fight4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fight4-Info.plist"; sourceTree = "<group>"; };
+		58E51DC4152095640083C8E2 /* Yoe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Yoe-Info.plist"; sourceTree = "<group>"; };
 		58E51DC6152095640083C8E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		58E51DC8152095640083C8E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		58E51DCA152095640083C8E2 /* Fight4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fight4-Prefix.pch"; sourceTree = "<group>"; };
+		58E51DCA152095640083C8E2 /* Yoe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yoe-Prefix.pch"; sourceTree = "<group>"; };
 		58E51DCB152095640083C8E2 /* NirvanaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NirvanaAppDelegate.h; sourceTree = "<group>"; };
 		58E51DCC152095640083C8E2 /* NirvanaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NirvanaAppDelegate.m; sourceTree = "<group>"; };
 		58E51DCF152095640083C8E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -60,8 +60,8 @@
 		587122711520ADF60024C2DD /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				589532FC1520BBBD00F6C62A /* Icon@2x.png */,
-				589532FF1520BBFD00F6C62A /* Icon.png */,
+				58B34AD31584E7E200ED4DB0 /* Icon@2x.png */,
+				58B34AD41584E7E200ED4DB0 /* Icon.png */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 		58E51DB9152095640083C8E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58E51DB8152095640083C8E2 /* Fight4.app */,
+				58E51DB8152095640083C8E2 /* Yoe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,10 +121,10 @@
 		58E51DC3152095640083C8E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				58E51DC4152095640083C8E2 /* Fight4-Info.plist */,
+				58E51DC4152095640083C8E2 /* Yoe-Info.plist */,
 				58E51DC5152095640083C8E2 /* InfoPlist.strings */,
 				58E51DC8152095640083C8E2 /* main.m */,
-				58E51DCA152095640083C8E2 /* Fight4-Prefix.pch */,
+				58E51DCA152095640083C8E2 /* Yoe-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58E51DB7152095640083C8E2 /* Fight4 */ = {
+		58E51DB7152095640083C8E2 /* Yoe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58E51DD6152095640083C8E2 /* Build configuration list for PBXNativeTarget "Fight4" */;
+			buildConfigurationList = 58E51DD6152095640083C8E2 /* Build configuration list for PBXNativeTarget "Yoe" */;
 			buildPhases = (
 				58E51DB4152095640083C8E2 /* Sources */,
 				58E51DB5152095640083C8E2 /* Frameworks */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = Fight4;
+			name = Yoe;
 			productName = fight4;
-			productReference = 58E51DB8152095640083C8E2 /* Fight4.app */;
+			productReference = 58E51DB8152095640083C8E2 /* Yoe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -157,9 +157,9 @@
 			attributes = {
 				CLASSPREFIX = Nirvana;
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = 7782;
+				ORGANIZATIONNAME = LovingYoe;
 			};
-			buildConfigurationList = 58E51DB2152095640083C8E2 /* Build configuration list for PBXProject "Fight4" */;
+			buildConfigurationList = 58E51DB2152095640083C8E2 /* Build configuration list for PBXProject "Yoe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58E51DB7152095640083C8E2 /* Fight4 */,
+				58E51DB7152095640083C8E2 /* Yoe */,
 			);
 		};
 /* End PBXProject section */
@@ -183,8 +183,8 @@
 			files = (
 				58E51DC7152095640083C8E2 /* InfoPlist.strings in Resources */,
 				58E51DD0152095640083C8E2 /* MainStoryboard.storyboard in Resources */,
-				589532FE1520BBBD00F6C62A /* Icon@2x.png in Resources */,
-				589533001520BBFD00F6C62A /* Icon.png in Resources */,
+				58B34AD51584E7E200ED4DB0 /* Icon@2x.png in Resources */,
+				58B34AD61584E7E200ED4DB0 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,14 +273,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fight4/Fight4-Prefix.pch";
-				INFOPLIST_FILE = "fight4/Fight4-Info.plist";
+				GCC_PREFIX_HEADER = "fight4/Yoe-Prefix.pch";
+				INFOPLIST_FILE = "fight4/Yoe-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = Fight4;
+				PRODUCT_NAME = Yoe;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -290,14 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fight4/Fight4-Prefix.pch";
-				INFOPLIST_FILE = "fight4/Fight4-Info.plist";
+				GCC_PREFIX_HEADER = "fight4/Yoe-Prefix.pch";
+				INFOPLIST_FILE = "fight4/Yoe-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
-				PRODUCT_NAME = Fight4;
+				PRODUCT_NAME = Yoe;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -306,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58E51DB2152095640083C8E2 /* Build configuration list for PBXProject "Fight4" */ = {
+		58E51DB2152095640083C8E2 /* Build configuration list for PBXProject "Yoe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58E51DD4152095640083C8E2 /* Debug */,
@@ -315,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58E51DD6152095640083C8E2 /* Build configuration list for PBXNativeTarget "Fight4" */ = {
+		58E51DD6152095640083C8E2 /* Build configuration list for PBXNativeTarget "Yoe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58E51DD7152095640083C8E2 /* Debug */,
