@@ -25,8 +25,16 @@
 }
 
 + (void)scheduleNotification {
-    if (YES) {
-        [[NSUserDefaults standardUserDefaults]setValue:[[NSDate date] dateByAddingTimeInterval:-86401 * 2] forKey:@"DefaultDate"];
+    if (NO) {
+        NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+        
+        //The Z at the end of your string represents Zulu which is UTC
+        [dateFormatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]];
+        [dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'"];
+        
+        NSDate* successDate = [dateFormatter dateFromString:@"2012-06-10T08:16:00Z"];
+        
+        [[NSUserDefaults standardUserDefaults]setValue:successDate forKey:@"DefaultDate"];
     }
     NSDate *theDefaultDate = [[NSUserDefaults standardUserDefaults]objectForKey:@"DefaultDate"];
     if (!theDefaultDate) {

@@ -60,7 +60,7 @@
     // if is the first time launch, pick the date and schedule, if not, schedule
     if (!self.defaultDate) {
         self.datePicker = [[UIDatePicker alloc] init];
-        self.datePicker.datePickerMode = UIDatePickerModeDate;
+        self.datePicker.datePickerMode = UIDatePickerModeDateAndTime;
         NSString *title = UIDeviceOrientationIsLandscape([UIDevice currentDevice]. orientation) ? @"\n\n\n\n\n\n\n\n" : @"\n\n\n\n\n\n\n\n\n\n\n" ;
         UIActionSheet *actionSheet = nil;
         actionSheet.delegate = self;
