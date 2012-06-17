@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "58E51DB7152095640083C8E2"
-               BuildableName = "Fight4.app"
+               BuildableName = "Yoe.app"
                BlueprintName = "Yoe"
                ReferencedContainer = "container:Yoe.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58E51DB7152095640083C8E2"
-            BuildableName = "Fight4.app"
+            BuildableName = "Yoe.app"
             BlueprintName = "Yoe"
             ReferencedContainer = "container:Yoe.xcodeproj">
          </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58E51DB7152095640083C8E2"
-            BuildableName = "Fight4.app"
+            BuildableName = "Yoe.app"
             BlueprintName = "Yoe"
             ReferencedContainer = "container:Yoe.xcodeproj">
          </BuildableReference>
@@ -69,7 +69,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58E51DB7152095640083C8E2"
-            BuildableName = "Fight4.app"
+            BuildableName = "Yoe.app"
             BlueprintName = "Yoe"
             ReferencedContainer = "container:Yoe.xcodeproj">
          </BuildableReference>

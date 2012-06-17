@@ -25,7 +25,7 @@
 }
 
 + (void)scheduleNotification {
-    if (NO) {
+    if (YES) {
         [[NSUserDefaults standardUserDefaults]setValue:[[NSDate date] dateByAddingTimeInterval:-86401 * 2] forKey:@"DefaultDate"];
     }
     NSDate *theDefaultDate = [[NSUserDefaults standardUserDefaults]objectForKey:@"DefaultDate"];

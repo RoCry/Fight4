@@ -73,6 +73,10 @@
         stop = [[[NSUserDefaults standardUserDefaults]objectForKey:@"kStopRefresh"]boolValue];
         [self toggleRefresh:stop];
     }
+    
+    self.fightLabel.layer.shadowColor = [UIColor whiteColor].CGColor;
+    self.fightLabel.layer.shadowOffset = CGSizeMake(0, 1);
+    self.fightLabel.layer.shadowOpacity = 0.7;
 }
 
 - (void)viewDidUnload
@@ -202,8 +206,8 @@
 }
 
 - (void)toggleRefresh:(BOOL)reverse{
-    UIColor *color1;
-    UIColor *color2;
+    UIColor *color1, *color2, *color3;
+    color3 = [UIColor redColor];
     stop = reverse;
     if (reverse) {
         color1 = [UIColor whiteColor];
@@ -219,7 +223,8 @@
     [self.fightView setBackgroundColor:color1];
     [self.timeView setBackgroundColor:color2];
     
-    [self.fightLabel setTextColor:color2];
+    [self.fightLabel setTextColor:color3];
+    self.fightLabel.layer.shadowColor = color2.CGColor;
     for (UILabel *label in self.numberLabels) {
         [label setTextColor:color1];
     }
